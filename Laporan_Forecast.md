@@ -190,7 +190,7 @@ Karena hanya menggunakan satu algoritma utama, proses improvement dilakukan mela
 
     tuner.search(X_train_lstm, y_train_scaled, validation_data=(X_test_lstm, y_test_scaled),epochs=50, batch_size=32,callbacks=[EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)],verbose=1)
 
-    Selama proses pencarian, model dilatih dengan parameter standar yaitu 50 epoch dan batch size 32. EarlyStopping juga memastikan pelatihan berhenti pada titik optimal sebelum model mulai overfit.
+Selama proses pencarian, model dilatih dengan parameter standar yaitu 50 epoch dan batch size 32. EarlyStopping juga memastikan pelatihan berhenti pada titik optimal sebelum model mulai overfit.
 
 3. Hasil dan Implementasi Model Optimal
 Hasil tuning menunjukkan konfigurasi terbaik pada model LSTM dengan:
