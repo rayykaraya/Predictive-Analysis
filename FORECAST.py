@@ -107,7 +107,7 @@ df.info()
 df.duplicated().sum()
 
 
-# Dataset telah berhasil dibersihkan dan ditransformasikan menjadi bentuk yang siap diproses untuk eksplorasi lanjutan atau dimasukkan ke dalam model prediktif. Hal ini memastikan format waktu valid dan urut, data numerik siap distandardisasi dan informasi penting seperti volume dan perubahan harga dapat dianalisis secara akurat. Dataset juga tidak memiliki missing values.
+# Dataset telah berhasil dibersihkan dan ditransformasikan menjadi bentuk yang siap diproses untuk eksplorasi lanjutan atau dimasukkan ke dalam model prediktif. Hal ini memastikan format waktu valid dan urut, data numerik siap distandardisasi dan informasi penting seperti volume dan perubahan harga dapat dianalisis secara akurat. Dataset juga tidak memiliki missing values dan duplikat data.
 # 
 # 
 
